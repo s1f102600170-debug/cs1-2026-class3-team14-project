@@ -1,10 +1,10 @@
 .title{
-    font-size: clamp(28px, 7vw, 42px);
-    margin-left: clamp(10px,7vw,100px);
+    font-size: clamp(24px, 7vw, 42px);
+    margin-left: clamp(0px,7vw,100px);
 }
 
 p{
-    font-size: clamp(13px, 2.5vw, 24px);
+    font-size: clamp(12px, 2.5vw, 24px);
     line-height: 1.8;
 }
 
@@ -365,7 +365,6 @@ p{
 }
 
 p{
-    font-size:16px;
     line-height:1.8;
 }
 
@@ -387,6 +386,7 @@ p{
 .box1 img{
     width:100%;
     height:auto;
+    margin-top: 10px;
 }
 
 .box2{
@@ -398,7 +398,7 @@ p{
 .text{
     font-size:16px;
     top:50%;
-    left:50%;
+    left:35%;
 }
 
 .text1,
@@ -430,7 +430,7 @@ p{
 .img2,
 .img3{
     width:100%;
-    margin:30px 0;
+    margin:30px;
 }
 
 .img4{
@@ -438,7 +438,7 @@ p{
 }
 
 .slider{
-    width:100%;
+    width:90%;
     height:330px;
 }
 
