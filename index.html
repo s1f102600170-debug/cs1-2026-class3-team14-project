@@ -1,9 +1,150 @@
 <!DOCTYPE html>
 <html lang = "ja">
-    <head>
-        <meta charset = "UTF = 8">
-        <title>Shape Art</title>
-        <link rel="stylesheet" href="./css/style.css" >
-    </head>
+    <meta charset="UTF-8">
+    <title>cs</title>
+    <link rel="stylesheet" type = "text/css" href="./css/style.css">
+    <link rel="stylesheet" type = "text/css" href="./css/background.css">
 
+    <body>
+
+        <div class = "box1">
+        <img class = "img1" src="./img/top4.png" alt="">
+        <div class = text>
+            <h1>図形が描く、<br>無限の世界</h1>
+            <p>
+                シェイプアートは、円や四角などの図形を組み合わせて<br>
+                作品を描くアート表現です。シンプルな形から生まれる<br>
+                豊かな表現と、その魅力を紹介します。
+            </p>
+        </div>
+        </div>
+
+        <div class = "yoko1">
+            <div class = "matome1">
+                <h1 class = "text1">シェイプアートとは</h1>
+                <h2>図形だけで広がる、新しいアートの世界</h2>
+                <p>
+                    シェイプアートとは、
+                    円や四角形、三角形などの図形（シェイプ）を
+                    組み合わせて絵やデザインを表現するアートです。
+                    線を描くのではなく、図形の形や色、配置を工夫することで
+                    作品を作ります。シンプルな図形だけで構成されていても、
+                    人はそれらを組み合わせて一つの絵として認識するため、
+                    さまざまな表現が可能です。
+            </div>
+            <img class = "img2" src="./img/ajisai2.png" alt="">
+        </div>
+
+
+        <h1 class = "text2">シェイプアートの特徴</h1>
+
+
+        <div class="yoko2">
+
+            <div class = box2>
+                <div>
+                    <h2 class = "text5-1">1</h2>
+                    <h2 class="text6">シンプルな<br>図形だけで描ける</h2>
+                    <p>図形の規則的な配置や色使いによって、スタイリッシュで魅力的な作品を制作できます。</p>
+                </div>
+            </div>
+
+
+            <div class = box2>
+                <div>
+                    <h2 class = "text5-2">2</h2>
+                    <h2 class="text6">デザイン性が高い</h2>
+                    <p>基本的な図形だけで作品を作るため、分かりやすく洗練された印象を与えます。</p>
+                </div>
+            </div>
+
+            <div class = box2>
+                <div>
+                    <h2 class = "text5-3">3</h2>
+                    <h2 class="text6">誰でも始めやすい</h2>
+                    <p>絵を描く技術がなくても、図形を操作できれば制作できるため、初心者でも気軽に挑戦できます。</p>
+                </div>
+            </div>
+
+        </div>
+
+        <h1 class = "text3">この図形たちが、ひとつの絵になる。</h1>
+        <p class = "text4">円や楕円、四角形などの図形を組み合わせることで、動物や人物などさまざまな作品を表現できます。</p>
+        <div class="slider">
+            <img src="./img/usagi3.png" class="slide active">
+            <img src="./img/usagi2.png" class="slide">
+        </div>
+
+        <h1 class = "text3">まとめ</h1>
+        <p class = "text4">
+            シェイプアートは、シンプルな図形を組み合わせながら豊かな表現を生み出すアートである。<br>
+            図形の配置や色彩の工夫によって作品の印象は大きく変化し、初心者から上級者まで楽しむことができる。<br>
+            身近なソフトでも制作できるため、誰でも気軽に挑戦できることが魅力である。
+        </p>
+
+        <div class="hex-container2">
+
+            <div class = yoko1>
+                <a href="history.html" class="history-btn">
+                    <span>シェイプアートの歴史</span>
+                    <span class="arrow">→</span>
+                </a>
+
+                <a href="gallery.html" class="gallery-btn">
+                    <span>シェイプアートの作品を見る</span>
+                    <span class="arrow">→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+        <img class = "img4" src="./img/ajisai.png" alt="">
+
+        <!-- 三角形 -->
+        <svg class="shape sankaku1" viewBox="0 0 200 200">
+            <polygon
+                points="100,6 6,194 194,194"
+            />
+        </svg>
+
+        <!-- 四角形 -->
+        <svg class="shape sikaku1" viewBox="0 0 200 200">
+            <rect
+                x="0"
+                y="0"
+                width="200"
+                height="200"
+                rx="30"
+            />
+        </svg>
+
+        <!-- 五角形 -->
+        <svg class="shape gokaku1" viewBox="0 0 200 200">
+            <polygon
+                points="100,6 194,76 160,194 40,194 6,76"
+            />
+        </svg>
+
+        <!-- 三角形 -->
+        <svg class="shape sankaku2" viewBox="0 0 200 200">
+            <polygon
+                points="100,6 6,194 194,194"
+            />
+        </svg>
+
+        <!-- 四角形 -->
+        <svg class="shape sikaku2" viewBox="0 0 200 200">
+            <rect
+                x="0"
+                y="0"
+                width="200"
+                height="200"
+                rx="20"
+            />
+        </svg>
+
+        <script src="script.js"></script>
+
+    </body>
 </html>

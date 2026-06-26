@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    overflow-x:hidden;
+    background-color: rgb(243, 255, 255);
+}
+
+/* 共通設定 */
+.shape{
+    position:fixed;
+    width:220px;
+    height:220px;
+    z-index:-1;
+    opacity:0.5;
+}
+
+/* SVGの線 */
+.shape polygon,
+.shape rect{
+    fill:none;
+    stroke-width:12;
+
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+/* 三角形 */
+.sankaku1 polygon{
+    stroke:#c7ffd2;
+}
+
+.sankaku2 polygon{
+    stroke:#c7ffd2;
+}
+
+/* 四角形 */
+.sikaku1 rect{
+    stroke:#c1ebff;
+    stroke-width: 20;
+}
+
+.sikaku2 rect{
+    stroke:#c1ebff;
+    stroke-width: 20;
+}
+
+/* 五角形 */
+.gokaku1 polygon{
+    stroke:#dbe2ff;
+}
+
+/* 三角形 */
+.sankaku1{
+    top:100px;
+    right:-50px;
+    width:400px;
+    height:400px;
+    transform: rotate(45deg);
+}
+
+.sankaku2{
+    top:1000px;
+    right:-50px;
+    width:400px;
+    height:400px;
+    transform: rotate(45deg);
+}
+
+/* 四角形 */
+.sikaku1{
+    top:-00px;
+    left:100px;
+    width:400px;
+    height:400px;
+    transform: rotate(45deg);
+}
+
+.sikaku2{
+    top:1200px;
+    left:100px;
+    width:400px;
+    height:400px;
+    transform: rotate(45deg);
+}
+
+/* 五角形 */
+.gokaku1{
+    top:550px;
+    left:600px;
+    width:400px;
+    height:400px;
+    transform: rotate(45deg);
+}
